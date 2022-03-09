@@ -50,7 +50,7 @@ export default function ForumForm() {
     });
     return (
         <Styles>
-            <div className="forumForm">
+            <div>
                 <h1 className="text-center">Forum</h1>
                 <form onSubmit={formik.handleSubmit} noValidate>
                     <div>
